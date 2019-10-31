@@ -45,4 +45,4 @@ if __name__ == "__main__":
 
 **NOTA 4**: Recuerde que hay un [**Tutorial Git**](https://github.com/ejdecena/tutorial_git) y un [**Tutorial Python**](https://github.com/ejdecena/tutorial_python) que pueden ser útiles en caso de cualquier duda.
 
-**NOTA 5**: Se recibirán solicitudes de PR hasta el día **miércoles 30 de octubre de 2019, 11:59 pm**, SIN PRÓRROGA.
+**NOTA 5**: Se recibirán solicitudes de PR hasta el día **sábado 2 de noviembre de 2019, 11:59 pm**, SIN PRÓRROGA.
