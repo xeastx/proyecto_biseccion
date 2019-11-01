@@ -16,7 +16,7 @@ def biseccion (f,a,b,ER,N):
         print ("Intervalo no valido")
         return
     error= 100; x_anterior = 0; x_actual=0; n=1;
-    while (N<ni) and (error>ER):
+    while (n<N) and (error>ER):
         m =(a+b)/2.0
         x_actual= m
         error= abs(x_actual-x_anterior)/x_actual
@@ -28,7 +28,7 @@ def biseccion (f,a,b,ER,N):
         print ("Iteracion: ",n, " Punto medio: ", x_actual, " Error: ", error)
         n= n + 1
     print (x_actual)
-    return (x_actual)
+    return x_actual
     
     
 
