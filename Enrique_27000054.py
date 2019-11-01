@@ -1,12 +1,22 @@
 from math import *
+    
+    # Implementa el Algoritmo de Biseccion y retorna la aproximación.
 
-def biseccion (f,a,b,es,ni):
+    # Parámetros:
+    # f: función de variable real f(x).
+    # a: límite inferior del intervalo.
+    # b: límite superior del intervalo.
+    # ER: cota mínima del error relativo.
+    # N: número máximo de iteraciones.
+    
+
+def biseccion (f,a,b,ER,N):
 
     if (f(a)*f(b))>0 :
         print ("Intervalo no valido")
         return
     error= 100; x_anterior = 0; x_actual=0; n=1;
-    while (n<ni) and (error>es):
+    while (N<ni) and (error>ER):
         m =(a+b)/2.0
         x_actual= m
         error= abs(x_actual-x_anterior)/x_actual
